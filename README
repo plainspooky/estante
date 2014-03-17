@@ -1,0 +1,8 @@
+"ESTANTE", Library Manager - Version 0.1
+(C)2005 Giovanni Nunes <bitatwork@yahoo.com>
+
+The program and other related files in this distribution are licensed under the
+GNU General Public License or "GPL". Changes, sugestion and improves are welcome. To run "ESTANTE" you need PHP4, a PHP compatible HTTP Server (like Apache) and um SGBD (like MySQL). I recomend to use a CSS2 compliant web browser in client side.
+
+Visit http://estante.codigolivre.org.br
+
