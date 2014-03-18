@@ -9,7 +9,7 @@
    $DB_PORT="";
    $DB_USER="estante";
    /*
-     Não se esqueça de colocar a senha!
+     NÃ£o se esqueÃ§a de colocar a senha!
    */
    $DB_PASS="";
    $DB_DATA="estante";
@@ -28,7 +28,7 @@
    $MI_NAME="Minha Biblioteca";
    $MI_SUBT="Exemplo de uso do Estante vers&atilde;o 0.1";
    /*
-     14 dias é uma sugestão, mude se assim desejar
+     14 dias Ã© uma sugestÃ£o, mude se assim desejar
    */
    $MI_DAYS=14;
 ?>
