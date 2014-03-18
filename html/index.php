@@ -1,10 +1,10 @@
 <?php
 /*
   ESTANTE
-  Controle do acervo, emprÈstimos e usu·rios em uma pequena biblioteca.
-  vers√£o 0.1
+  Controle do acervo, empr√©stimos e usu√°rios em uma pequena biblioteca.
+  vers√£o 0.2
 
-  Copyright (C) 2005  Giovanni Nunes <bitatwork@yahoo.com>
+  Copyright (C) 2005  Giovanni Nunes <giovanni.nunes@gmail.com>
 
   This program is free software; you can redistribute it and/or modify it under
   the terms of the GNU General Public License as published by the the Free
@@ -22,8 +22,8 @@
 */
 
 /*
-  recupera a configuraÁ„o do programa e faz a validaÁ„o de alguns
-  par‚metros iniciais
+  recupera a configura√ß√£o do programa e faz a valida√ß√£o de alguns
+  par√¢metros iniciais
 */
   include("configuracao.php");
   
@@ -55,7 +55,7 @@
   include($MI_LIBS_DIR."/estante.php");
 
 /*
-  formataÁ„o da URL dos links
+  formata√ß√£o da URL dos links
 */
 function format_get($VALUES)
 {
@@ -78,7 +78,7 @@ function format_get($VALUES)
 }
 
 /*
-  inÌcio do programa
+  in√≠cio do programa
 */
   setlocale(LC_ALL,$MI_LOCALE);
 
@@ -95,7 +95,7 @@ function format_get($VALUES)
   $MI_STYL_DIR=$MI_HTTP_DIR."/estilos";
 
 /*
-  outras informaÁıes
+  outras informa√ß√µes
 */
   $MI_AUTH=$MI_PROG." vers√£o ".$MI_VERS;
   $MI_KEYS="GNU, Linux, Apache, PHP, MySQL, Controle de Bibliotecas";
@@ -106,13 +106,13 @@ function format_get($VALUES)
                  "Consultas","Sobre");
 
   /*
-  Usado para montar a query, n„o apague!
+  Usado para montar a query, n√£o apague!
   */
-  $MI_LBAR=array("","*","9","@","B","C","D","E","F","G","H","I","J","K","L",
+  $MI_LBAR=array("","*","9","A","B","C","D","E","F","G","H","I","J","K","L",
                  "M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
 
 /*
-  recupera as informaÁıes passadas via GET
+  recupera as informa√ß√µes passadas via GET
 */
   $MI_OPTN=(int)$_GET['o'];
   $MI_ACTN=(int)$_GET['a'];
@@ -122,7 +122,7 @@ function format_get($VALUES)
   $MI_LETR=(int)$_GET['l'];
 
 /*
-  evita problemas com a vari·vel MI_OPTN
+  evita problemas com a vari√°vel MI_OPTN
 */
   if ( $MI_OPTN<0 or $MI_OPTN>=count($MI_MENU) )
   {
@@ -130,7 +130,7 @@ function format_get($VALUES)
   }
 
 /*
-  evita problemas com a vari·vel MI_LETR
+  evita problemas com a vari√°vel MI_LETR
 */
   if ( $MI_LETR<0 or $MI_LETR>=count($MI_LBAR) )
   {
@@ -138,24 +138,24 @@ function format_get($VALUES)
   }
 
 /*
-  recupera as informaÁıes passadas via POST
+  recupera as informa√ß√µes passadas via POST
 */
   $MI_SEGV=(int)$_POST['sv'];
   
 /*
-  o nome do programa e em que modo se est·
+  o nome do programa e em que modo se est√°
 */
   $MI_TITL=$MI_PROG." (".$MI_MENU[$MI_OPTN].")";
 
 /*
-  aqui comeÁa o XHTML (finalmente)
+  aqui come√ßa o XHTML (finalmente)
 */
   print xhtml_begin($MI_LANG).
         xhtml_header($MI_CHAR,$MI_AUTH,$MI_KEYS,$MI_DESC,$MI_STYL,$MI_TITL).
         xhtml_begin_body();
 
 /*
-  toda saÌda impressa fica dentro deste <DIV>
+  toda sa√≠da impressa fica dentro deste <DIV>
 */
   print "<div class='janela'>\n";
 
@@ -195,7 +195,7 @@ function format_get($VALUES)
         "</div>\n";
 
   /*
-  verifica qual mÛdulo deve ser usado
+  verifica qual m√≥dulo deve ser usado
   */
   switch ( $MI_OPTN )
   {
