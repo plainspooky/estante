@@ -1,12 +1,12 @@
 <?php
 /*
   ESTANTE
-  Controle do acervo, emprétimos e usuários em uma pequena biblioteca.
+  Controle do acervo, emprï¿½timos e usuï¿½rios em uma pequena biblioteca.
   versÃ£o 0.1
 
-  Rotinas Específicas do Programa
+  Rotinas EspecÃ­ficas do Programa
   
-  Copyright (C) 2005  Giovanni Nunes <bitatwork@yahoo.com>
+  Copyright (C) 2014  Giovanni Nunes <giovanni.nunes@gmail.com>
 
   This program is free software; you can redistribute it and/or modify it under
   the terms of the GNU General Public License as published by the the Free
@@ -193,4 +193,3 @@ function cc_gnu_gpl()
 	 "</div>\n".
 	 "<!-- /Creative Commons License -->";
 }
-
