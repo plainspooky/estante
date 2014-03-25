@@ -1,7 +1,7 @@
 <?php
 /*
   ESTANTE
-  Controle do acervo, empr�timos e usu�rios em uma pequena biblioteca.
+  Controle do acervo, empréstimos e usuários em uma pequena biblioteca.
   versão 0.1
 
   Rotinas Específicas do Programa
