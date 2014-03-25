@@ -1,9 +1,9 @@
 <?php
 /*
   USER INTERFACE
-  versão 0.1
+  versÃ£o 0.1
 
-  Copyright (C) 2005  Giovanni Nunes <bitatwork@yahoo.com>
+  Copyright (C) 2005-2014  Giovanni Nunes <giovanni.nunes@gmail.com>
 
   This program is free software; you can redistribute it and/or modify it under
   the terms of the GNU General Public License as published by the the Free
