@@ -616,7 +616,7 @@
         $MI_MENU=array("Retornar","Incluir");
         $MI_LINK=array(format_get(array($MI_OPTN,0,0,$MI_SORT,0,$MI_LETR)),(array($MI_OPTN,1,0,$MI_SORT,0,$MI_LETR)));
     } else {
-        $MI_MENU=array("Retornar","Incluir",Editar","Emprestar",Apagar");
+        $MI_MENU=array("Retornar","Incluir","Editar","Emprestar","Apagar");
         $MI_LINK=array(format_get(array($MI_OPTN,0,0,$MI_SORT,0,$MI_LETR)),
         format_get(array($MI_OPTN,1,0,$MI_SORT,0,$MI_LETR)),
         format_get(array($MI_OPTN,2,$MI_REGI,$MI_SORT,1,$MI_LETR)),

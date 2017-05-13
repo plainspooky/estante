@@ -1,6 +1,0 @@
-ESTANTE, Gerenciador de Biblioteca - Versão 1.0 
-(C)2005 Giovanni Nunes <bitatwork@yahoo.com>
-
-Este programa e outros arquivos relacionados estão licenciados sob a GPL (GNU General Public License). Mudanças, sugestões e melhorias são bem vindas. Para executar o Estante você precisa de PHP4, um servidor HTTP compatível com PHP (ex. Apache) e de um SGBD (ex. MySQL). Eu recomendo o uso, por parte do cliente, de um navegador web compatível com a especificação CSS2.
-
-Visite http://estante.codigolivre.org.br

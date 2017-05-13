@@ -64,7 +64,7 @@
 
     $DB=array($DB_HOST.$DB_PORT,$DB_USER,$DB_PASS);
 
-    $MI_VERS="0.1";
+    $MI_VERS="0.2";
     $MI_PROG="Estante";
     $MI_PDSC="Controle do acervo, empr&eacute;timos e usu&aacute;rios em uma ".
     "pequena biblioteca.\n";

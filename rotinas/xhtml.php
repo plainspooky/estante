@@ -62,7 +62,7 @@ function xhtml_ulist($LIST){
     return $XHTML."</ul>\n\n";
 }
 
-function xhtml_olist($LIST){}
+function xhtml_olist($LIST){
     $XHTML="<ol>\n";
     foreach($LIST as $I){
         $XHTML=$XHTML."<li>".$I."</li>\n";

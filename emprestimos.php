@@ -198,7 +198,7 @@
                         print display_message("Registro Inv&aacute;lido");
                     }
                 } else {
-                    print display_error($DB_ERRO,$DB_BASE)
+                    print display_error($DB_ERRO,$DB_BASE);
                 }
                 break;
 

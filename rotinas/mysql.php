@@ -30,7 +30,7 @@ function db_connect($HOST,$USER,$PASS){
     }
 }
 
-function db_close(){}
+function db_close(){
     $MYSQL=mysql_close();
 
     if ( $MYSQL ){

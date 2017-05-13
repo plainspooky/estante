@@ -42,7 +42,7 @@ function ui_input_multiple($LABEL,$DIV,$NAME,$WIDTH,$VALUE){
     return $UI."\n";
 }
 
-function ui_input($LABEL,$NAME,$WIDTH,$VALUE){}
+function ui_input($LABEL,$NAME,$WIDTH,$VALUE){
     return "<b>".$LABEL."</b>\n".
     "<input type=\"text\" name=\"".$NAME."\"".
     " size=\"".$WIDTH."\"".
@@ -152,7 +152,7 @@ function ui_grid_table($HEAD,$QUERY,$SORT,$EDIT,$WIDTH){
     return $UI;
 }
 
-function ui_error_msg($MENSA,$LEVEL){}
+function ui_error_msg($MENSA,$LEVEL){
     return "<div>Erro:<br/>".$MENSA."</div>\n";
 }
 

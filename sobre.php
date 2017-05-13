@@ -1,11 +1,11 @@
 <?php
 /*
     Controle de Biblioteca
-    versão 0.1
+    versão 0.2
 
     Módulo: Sobre
 
-    Copyright (C) 2005  Giovanni Nunes <bitatwork@yahoo.com>
+    Copyright (C) 2005,2017  Giovanni Nunes <bitatwork@yahoo.com>
 
     This program is free software; you can redistribute it and/or modify it under
     the terms of the GNU General Public License as published by the the Free

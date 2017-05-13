@@ -230,6 +230,7 @@
                 }
             } else {
                 include("formulario_usuario.php");
+            }
         } else {
             print display_message("Registro n&atilde;o encontrado");
             $MI_ACTN=-1;
